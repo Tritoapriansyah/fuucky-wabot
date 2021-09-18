@@ -23,16 +23,16 @@ exports.done = () => {
   return `Done`
 }
 exports.onlygroup = () => {
-  return `[ ! ] This command can only be used in groups.`
+  return `[ ! ] Esse comando só pode ser usado em grupos.`
 }
 exports.onlyadmin = () => {
-  return `[ ! ] This command can only be used by group admins.`
+  return `[ ! ] Esse comando só pode ser usado por adm.`
 }
 exports.onlybadmin = () => {
-  return `[ ! ] This command can only be used when the bot is an admin group.`
+  return `[ ! ] Esse comando só pode ser usado quando o bot tiver adm`
 }
 exports.onlyowner = () => {
-  return `[ ! ] This command can only be used by owner.`
+  return `[ ! ] Esse comando só pode ser usado pelo dono.`
 
 }
 exports.acc = () => {
@@ -211,7 +211,7 @@ Serial Code : *${serialUser}*
 }
 exports.notverify = () => {
   return `
-You haven't verified.
+Você não verificou.
 
 Verify now!
 `
@@ -231,5 +231,5 @@ exports.brainlyview = (br_quest, br_answer) => {
 *Answer* : ${br_answer}\n\n`
 }
 exports.needquest = () => {
-  return `what's the question?`
+  return `Vai mamar quando?`
 }
